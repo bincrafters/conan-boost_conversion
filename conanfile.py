@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostConversionConan(ConanFile):
     name = "boost_conversion"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-conversion"
+    url = "https://github.com/bincrafters/conan-boost_conversion"
 
     lib_short_names = ["conversion"]
     is_in_cycle_group = True
