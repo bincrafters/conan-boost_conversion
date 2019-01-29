@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostConversionConan(base.BoostBaseConan):
     name = "boost_conversion"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_conversion"
     lib_short_names = ["conversion"]
     header_only_libs = ["conversion"]
